@@ -5,11 +5,11 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
- 
+  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>테스트용 프론트</h1>
+      <h1>깃헙 테스트용</h1>
     </>
   )
 }
